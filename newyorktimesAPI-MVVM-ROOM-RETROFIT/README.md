@@ -19,12 +19,11 @@ The whole application is built based on the MVVM architectural pattern.
 The main advatage of using MVVM, there is no two way dependency between ViewModel and Model unlike MVP. Here the view can observe the datachanges in the viewmodel as we are using LiveData which is lifecycle aware. The viewmodel to view communication is achieved through observer pattern (basically observing the state changes of the data in the viewmodel).
 
 # Screenshots
-<img src="/screenshots/main_screen.png" width="346" height="615" alt="Home"/> 
-<img src="/screenshots/details_screen.png" width="346" height="615" alt="Home"/>
-<img src="/screenshots/search_screen.png" width="346" height="615" alt="Home"/>
 
-# TEST REPORT
-<img src="/screenshots/test.png" width="346" height="615" alt="Home"/>
+![alt text](https://raw.githubusercontent.com/pramodpnckr1/newyorktimesAPI-MVVM-ROOM-RETROFIT/master/newyorktimesAPI-MVVM-ROOM-RETROFIT/screenshots/main_screen.png?v=4&s=200)
+![alt text](https://raw.githubusercontent.com/pramodpnckr1/newyorktimesAPI-MVVM-ROOM-RETROFIT/master/newyorktimesAPI-MVVM-ROOM-RETROFIT/screenshots/details_screen.png?v=4&s=200) 
+![alt text](https://raw.githubusercontent.com/pramodpnckr1/newyorktimesAPI-MVVM-ROOM-RETROFIT/master/newyorktimesAPI-MVVM-ROOM-RETROFIT/screenshots/search_screen.png?v=4&s=200)
+
 
 # Programming Practices Followed
 a) Android Architectural Components <br/>
@@ -35,6 +34,4 @@ e) Room for data caching <br/>
 f) JUnit and Mockito for Unit testing <br/>
 d) Repository pattern <br/>
 e) JSoup for HTML Parsing
-
-
 
