@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NYTIMES</string>
+    <string name="search_hint">Search Articles</string>
+    <string name="article_icon">Article Icon</string>
+    <string name="loading">Loading...</string>
+
+    <!-- Network Errors-->
+    <string name="networkError">You are not connected to a wifi or cellular data network. Please connect and try again</string>
+    <string name="networkErrorCode">NO_INTERNET_CONNECTION</string>
+    <string name="unknownError">Something went wrong...</string>
+
+    <string name="requestTimeOutError">Sorry!! We couldn’t capture your request in time. Please try again.</string>
+
+    <string name="errorCodeMalformedJson">MALFORMED_JSON</string>
+    <string name="responseMalformedJson">Sorry !! We hit an error. Try again later.</string>
+
+    <string name="errorCodeConnectFailed">Connection failed</string>
+    <string name="responseConnectFailed">Oops! Connection timeout.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="action_search">Search</string>
+</resources>
